@@ -1,0 +1,89 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "poppins", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background: #001e4d;
+}
+.app {
+  background: #fff;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 100px auto 0;
+}
+/* store score */
+.quistionScore {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+/* Question section */
+#question {
+  padding-top: 20px;
+}
+#myquiz {
+  background: #332a2a;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0px;
+  border-radius: 5px;
+}
+/* timer section */
+.timerText {
+  padding-top: 10px;
+  font-size: 25px;
+  text-align: center;
+  justify-content: center;
+}
+.quiz h2 {
+  font-size: 18px;
+  color: #001e4d;
+  font-weight: 600;
+}
+.btn {
+  background: #fff;
+  color: #222;
+  font-weight: 400;
+  width: 100%;
+  border: 1px solid #222;
+  padding: 10px;
+  margin: 10px 0;
+  text-align: left;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.btn:hover.btn:hover:not([disabled]) {
+  background: #222;
+  color: #fff;
+}
+
+/* next button */
+#next-btn {
+  background: #001e4d;
+  color: #ffff;
+  font-weight: 500;
+  width: 100px;
+  border: 0;
+  padding: 10px;
+  margin: 20px auto 0;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+}
+/* check answer correct aur not */
+.correct {
+  background: #689f38;
+  /* color: #689f38; */
+  border-color: green;
+}
+.incorrect {
+  background: #d32f2f;
+  /* color: #d32f2f; */
+  border-color: red;
+}
